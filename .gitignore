@@ -1,0 +1,34 @@
+# Generated build/runtime files
+.gradle/
+**/build/
+**/run/
+**/runs/
+**/bin/
+evidence/
+dist/
+source-rebuild*/
+
+# Local upstream binaries and archives (Gradle wrapper is intentionally versioned)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.zip
+*.class
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+local.properties
+
+# Editor/OS/Python files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+__MACOSX/
+__pycache__/
+*.py[cod]
+*.log

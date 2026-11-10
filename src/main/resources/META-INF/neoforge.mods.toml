@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="aero_enchant_compat"
+version="0.2.1"
+displayName="Create Aero: Encased Enchantment Compatibility"
+authors="Dane Lord / compatibility integration"
+description='''CEM enchantment behavior for supported Encased machinery, retaining Encased block and item identities.'''
+[[mixins]]
+config="aero_enchant_compat.mixins.json"
+[[dependencies.aero_enchant_compat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.aero_enchant_compat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,)"
+side="BOTH"
+[[dependencies.aero_enchant_compat]]
+modId="create"
+type="required"
+versionRange="[6.0.10]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.aero_enchant_compat]]
+modId="createenchantablemachinery"
+type="required"
+versionRange="[3.6.0]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.aero_enchant_compat]]
+modId="createcasing"
+type="required"
+versionRange="[1.10.0-fix1]"
+ordering="AFTER"
+side="BOTH"

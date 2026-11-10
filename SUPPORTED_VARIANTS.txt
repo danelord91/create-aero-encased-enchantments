@@ -1,0 +1,75 @@
+createcasing:andesite_spout | spouts | efficiency
+createcasing:brass_encased_fan | encased_fans | efficiency
+createcasing:brass_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:brass_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:brass_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:brass_mechanical_roller | rollers | efficiency
+createcasing:brass_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:brass_mixer | mixers | efficiency
+createcasing:brass_press | presses | efficiency
+createcasing:brass_spout | spouts | efficiency
+createcasing:copper_encased_fan | encased_fans | efficiency
+createcasing:copper_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:copper_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:copper_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:copper_mechanical_roller | rollers | efficiency
+createcasing:copper_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:copper_mixer | mixers | efficiency
+createcasing:copper_press | presses | efficiency
+createcasing:creative_encased_fan | encased_fans | efficiency
+createcasing:creative_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:creative_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:creative_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:creative_mechanical_roller | rollers | efficiency
+createcasing:creative_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:creative_mixer | mixers | efficiency
+createcasing:creative_press | presses | efficiency
+createcasing:industrial_iron_encased_fan | encased_fans | efficiency
+createcasing:industrial_iron_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:industrial_iron_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:industrial_iron_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:industrial_iron_mechanical_roller | rollers | efficiency
+createcasing:industrial_iron_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:industrial_iron_mixer | mixers | efficiency
+createcasing:industrial_iron_press | presses | efficiency
+createcasing:railway_encased_fan | encased_fans | efficiency
+createcasing:railway_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:railway_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:railway_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:railway_mechanical_roller | rollers | efficiency
+createcasing:railway_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:railway_mixer | mixers | efficiency
+createcasing:railway_press | presses | efficiency
+createcasing:refined_radiance_encased_fan | encased_fans | efficiency
+createcasing:refined_radiance_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:refined_radiance_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:refined_radiance_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:refined_radiance_mechanical_roller | rollers | efficiency
+createcasing:refined_radiance_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:refined_radiance_mixer | mixers | efficiency
+createcasing:refined_radiance_press | presses | efficiency
+createcasing:shadow_steel_encased_fan | encased_fans | efficiency
+createcasing:shadow_steel_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:shadow_steel_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:shadow_steel_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:shadow_steel_mechanical_roller | rollers | efficiency
+createcasing:shadow_steel_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:shadow_steel_mixer | mixers | efficiency
+createcasing:shadow_steel_press | presses | efficiency
+createcasing:weathered_iron_encased_fan | encased_fans | efficiency
+createcasing:weathered_iron_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:weathered_iron_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:weathered_iron_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:weathered_iron_mechanical_roller | rollers | efficiency
+createcasing:weathered_iron_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:weathered_iron_mixer | mixers | efficiency
+createcasing:weathered_iron_press | presses | efficiency
+createcasing:zinc_encased_fan | encased_fans | efficiency
+createcasing:zinc_mechanical_drill | drills | efficiency, fortune, silk_touch
+createcasing:zinc_mechanical_harvester | harvesters | fortune, silk_touch
+createcasing:zinc_mechanical_plough | ploughs | efficiency, fortune, silk_touch
+createcasing:zinc_mechanical_roller | rollers | efficiency
+createcasing:zinc_mechanical_saw | saws | efficiency, fortune, silk_touch
+createcasing:zinc_mixer | mixers | efficiency
+createcasing:zinc_press | presses | efficiency
+createcasing:zinc_spout | spouts | efficiency

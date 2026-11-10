@@ -1,0 +1,1459 @@
+{
+  "inputs_sha256": {
+    "cem": "933ad37b064d8c6005f1f6eb09b3274fe9f5961a6841fb9e7bb65a7bff66f653",
+    "encased": "67de80fa384334e75ec087960a3d5bae40226bdea274d5c97995c81431431ed7",
+    "create": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+  },
+  "method": "Installed JAR item tags cross-checked against upstream registration source; tag eligibility does not establish functional compatibility.",
+  "cem_registered_items": [
+    "create:mechanical_drill",
+    "create:mechanical_saw",
+    "create:mechanical_harvester",
+    "create:encased_fan",
+    "create:millstone",
+    "create:crushing_wheel",
+    "create:mechanical_plough",
+    "create:mechanical_mixer",
+    "create:mechanical_press",
+    "create:mechanical_roller",
+    "create:spout"
+  ],
+  "cem_mining_loot_tag": [
+    "create:mechanical_drill",
+    "create:mechanical_saw",
+    "create:mechanical_harvester",
+    "create:mechanical_plough"
+  ],
+  "counts_by_family": {
+    "drills": 9,
+    "encased_fans": 9,
+    "harvesters": 9,
+    "mixers": 9,
+    "ploughs": 9,
+    "presses": 9,
+    "rollers": 9,
+    "saws": 9,
+    "spouts": 3
+  },
+  "total_relevant_encased_items": 75,
+  "items": [
+    {
+      "item": "createcasing:brass_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_mixer",
+      "family": "mixers",
+      "cem_counterpart": "create:mechanical_mixer",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_press",
+      "family": "presses",
+      "cem_counterpart": "create:mechanical_press",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_encased_fan",
+      "family": "encased_fans",
+      "cem_counterpart": "create:encased_fan",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:andesite_spout",
+      "family": "spouts",
+      "cem_counterpart": "create:spout",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_spout",
+      "family": "spouts",
+      "cem_counterpart": "create:spout",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_spout",
+      "family": "spouts",
+      "cem_counterpart": "create:spout",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_mechanical_drill",
+      "family": "drills",
+      "cem_counterpart": "create:mechanical_drill",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_mechanical_saw",
+      "family": "saws",
+      "cem_counterpart": "create:mechanical_saw",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:copper_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:railway_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:shadow_steel_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:refined_radiance_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:creative_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:industrial_iron_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:weathered_iron_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:zinc_mechanical_harvester",
+      "family": "harvesters",
+      "cem_counterpart": "create:mechanical_harvester",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "upstream tag eligibility; no efficiency handler found in harvester actor",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": "Efficiency intentionally not offered: no harvester speed effect in upstream actor"
+    },
+    {
+      "item": "createcasing:brass_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_mechanical_plough",
+      "family": "ploughs",
+      "cem_counterpart": "create:mechanical_plough",
+      "upstream_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed",
+        "fortune": "enchanted tool loot, subject to target loot table",
+        "silk_touch": "enchanted tool loot, subject to target loot table"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency",
+        "fortune",
+        "silk_touch"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:brass_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:copper_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:railway_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:shadow_steel_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:refined_radiance_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:creative_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:industrial_iron_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:weathered_iron_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    },
+    {
+      "item": "createcasing:zinc_mechanical_roller",
+      "family": "rollers",
+      "cem_counterpart": "create:mechanical_roller",
+      "upstream_eligible_enchantments": [
+        "efficiency"
+      ],
+      "upstream_effects": {
+        "efficiency": "processing or block-breaking speed"
+      },
+      "addon_eligible_enchantments": [
+        "efficiency"
+      ],
+      "verification_state": "production-JAR GameTests: anvil, placement, entity save/reload, drop, pick, wrench, unenchanted drop and glint policy; actor variants additionally controlled capture/remove/disassembly; effects tested on representative family fixtures",
+      "exclusion_reason": null
+    }
+  ],
+  "no_encased_counterpart_in_installed_family_tags": [
+    "create:millstone",
+    "create:crushing_wheel"
+  ],
+  "excluded_other_items_reason": "No corresponding CEM registered machinery/effect; e.g. shafts, gears and deployers are not added by this inventory.",
+  "limitations": [
+    "Resource tags inventory built-in variants; it does not prove dynamically registered third-party casing variants.",
+    "Enchantment effects are conditioned by applicable loot tables and upstream mechanics.",
+    "Harvester Efficiency is eligible upstream but deliberately not offered by this addon because no speed handler was located.",
+    "Representative effects and controlled single-block contraption fixtures are not exhaustive powered-contraption, every loot-table, client pixel or full-pack verification."
+  ]
+}

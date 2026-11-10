@@ -1,0 +1,16 @@
+Create Aero: Encased Enchantment Compatibility
+
+This is an independent compatibility addon, not an official release of Create,
+Create Encased, or Create: Enchantable Machinery (CEM).
+
+Create: Enchantable Machinery 3.6.0 is by Cotrin (MIT). Its supplied, unmodified
+binary provides all enchanted processing implementations used by this addon.
+Inspected source: commit b7aac0449ce5468218ed249af57abee6c986fd27.
+Create Encased 1.10.0-fix1 is by iglee42 (MIT). Its supplied, unmodified binary
+provides block identities, models, renderer registrations and entity types.
+Inspected source: commit 256544e3bd60406156bdc98b4ddbe7867a7712a3.
+Create 6.0.10 is by the Creators of Create; see its own license.
+
+No upstream machine implementation source, texture, model, or dependency binary
+is embedded in the release addon JAR. Dependencies retain their own licenses.
+The Gradle wrapper files retain the original Gradle Apache-2.0 notices.

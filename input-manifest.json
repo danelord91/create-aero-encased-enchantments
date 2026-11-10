@@ -1,0 +1,17 @@
+{
+  "create.jar": {
+    "original_filename": "doc_e66f9d574c07_create-1.21.1-6.0.10.jar",
+    "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "bytes": 19123767
+  },
+  "cem.jar": {
+    "original_filename": "doc_d37d261cbdf0_createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar",
+    "sha256": "933ad37b064d8c6005f1f6eb09b3274fe9f5961a6841fb9e7bb65a7bff66f653",
+    "bytes": 575739
+  },
+  "encased.jar": {
+    "original_filename": "doc_9d8a412a07c4_Create Encased-1.21.1-1.10.0-fix1.jar",
+    "sha256": "67de80fa384334e75ec087960a3d5bae40226bdea274d5c97995c81431431ed7",
+    "bytes": 3383308
+  }
+}
