@@ -30,11 +30,11 @@ Shimmer covers baked casings, **not separately animated drill heads, blades, sha
 | Minecraft | 1.21.1 |
 | Java | 21 |
 | NeoForge | 21.1.265 tested; minimum 21.1.265 |
-| Create | 6.0.10 |
-| Create Encased | 1.10.0-fix1 |
-| Create: Enchantable Machinery | 3.6.0 |
+| Create | 6.0.10 or newer |
+| Create Encased | 1.10.0-fix1 or newer |
+| Create: Enchantable Machinery | 3.6.0 or newer |
 
-The three mod versions are exact requirements in the addon metadata. Their own dependencies remain required. Other Minecraft versions and loaders are not supported by this build.
+From addon 0.2.2, these three mod versions are inclusive minimum requirements, with no upper version cap. NeoForge also retains its existing minimum of 21.1.265. Minecraft stays locked to 1.21.1. This permits newer dependency versions to load; it does not certify their API, Mixin or gameplay compatibility. The tested dependency baseline remains Create 6.0.10, Create Encased 1.10.0-fix1 and Enchantable Machinery 3.6.0. Their own dependencies remain required. Other Minecraft versions and loaders are not supported by this build.
 
 ## Install
 
@@ -47,6 +47,8 @@ This repository contains source, not the upstream mod binaries. For rebuilding a
 Encased ploughs use an addon-owned block entity to store enchantments while retaining their original IDs. Back up and recover enchanted machines before removing the addon; saved enchantments can otherwise be discarded. Enchanted items are not a substitute for keeping the addon installed when using this compatibility behaviour.
 
 ## Verification and limits
+
+Version 0.2.2 passed **14 Python regression checks**, including actual Maven range acceptance/rejection checks, plus **22/22 development GameTests** and **22/22 production-JAR GameTests** using the pinned dependency baseline. Compared with 0.2.1, the only changed JAR entry is `META-INF/neoforge.mods.toml`; all compiled runtime classes and other resources are byte-identical. No newer dependency binary or fresh client visual run was tested for this metadata-only update.
 
 Version 0.2.1 passed **22/22 production-JAR GameTests**, **8/8 glint-wiring checks** and **8/8 actual exported client-transformation checks**. The isolated client started successfully. The project owner also confirmed drill-casing shimmer on a contraption in-game.
 

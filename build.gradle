@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.neoforged.moddev' version '2.0.140' }
-version = '0.2.1'
+version = '0.2.2'
 group = 'dev.danelord.createaero'
 base { archivesName = 'create-aero-enchantment-compat' }
 java { toolchain { languageVersion = JavaLanguageVersion.of(21) }; withSourcesJar() }

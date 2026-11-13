@@ -28,19 +28,19 @@ python3 tools/verify_inputs.py
 bash gradlew build
 ```
 
-The output is `build/libs/create-aero-enchantment-compat-0.2.1.jar`. The release JAR excludes GameTest classes, test fixtures and original dependency binaries. Gradle's ordinary `test` task is not the Minecraft GameTest suite.
+The output is `build/libs/create-aero-enchantment-compat-0.2.2.jar`. The release JAR excludes GameTest classes, test fixtures and original dependency binaries. Gradle's ordinary `test` task is not the Minecraft GameTest suite. The local input JARs above remain the pinned build/test baseline even though runtime metadata now accepts newer versions.
 
 On Windows, use `gradlew.bat` instead of `bash gradlew` and `py -3` if Python is installed under that command.
 
 ## Regression tests
 
 ```bash
-python3 -m unittest discover -s tools -p 'test_*glint*.py'
+python3 -m unittest discover -s tools -p 'test_*.py'
 bash gradlew runGameTestServer
 bash gradlew -p verification runGameTestServer
 ```
 
-Expected for 0.2.1: **8 glint tests**, and **22 required Minecraft tests** in each server run. The second Minecraft run loads the compiled production JAR; build the main project first. Inspect the explicit all-required-tests-passed line, not only Gradle's exit code.
+For 0.2.2, the Python suite includes **8 glint tests** and **6 dependency-metadata tests**. The actual Maven range test needs the Maven artifact and Commons Lang libraries in the Gradle cache (or `MAVEN_ARTIFACT_JAR` for the former); it reports a skip if unavailable. The GameTest harness expects **22 required Minecraft tests** in each server run. The second Minecraft run loads the compiled production JAR; build the main project first. Inspect the explicit all-required-tests-passed line, not only Gradle's exit code. Newer dependency binaries need their own runtime testing before claiming compatibility.
 
 Use the included isolated structure fixtures and generated test worlds. Do not aim tests at a live world or treat this setup as authorisation to accept the Minecraft server EULA.
 
@@ -69,3 +69,9 @@ c5662722221785aa74f98d126428bd37e03d9439348f10ed38650eaf206e6e07
 ```
 
 The original extracted source archive rebuilt this exact binary in the verification environment. This repository preserves those production sources; README, issue templates and project artwork do not change the runtime implementation.
+
+## Verified 0.2.2 artifact
+
+SHA-256: `430d234d520e4669ff8b085735a958c8510605d57fb120d842251efdeac3f434`.
+
+The initial 0.2.2 build passed 14 Python checks, 22 development GameTests and 22 production-JAR GameTests using the pinned original dependency versions. Only `META-INF/neoforge.mods.toml` differs inside the JAR from 0.2.1. The dependency ranges now allow newer mod releases, but those newer binaries have not been runtime-tested by this update. No fresh client visual test was run.

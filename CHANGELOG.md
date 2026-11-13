@@ -1,3 +1,12 @@
+# 0.2.2 — Minimum dependency versions
+
+- Create now requires **6.0.10 or newer**, rather than exactly 6.0.10.
+- Create Encased now requires **1.10.0-fix1 or newer**, rather than exactly that release.
+- Create: Enchantable Machinery now requires **3.6.0 or newer**, rather than exactly 3.6.0.
+- NeoForge retains its existing **21.1.265 or newer** requirement; Minecraft remains exactly **1.21.1**.
+- No gameplay, enchantment, rendering or machine-coverage changes.
+- These are loader acceptance ranges, not a guarantee of compatibility with every future dependency release. Build and runtime verification use the original pinned dependency versions.
+
 # 0.2.1 — Initial public upload package
 
 - Adds compatibility for 75 built-in Create Encased machine variants with supported Efficiency, Fortune and Silk Touch behaviour.
