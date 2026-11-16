@@ -1,4 +1,4 @@
-"""Regression coverage for the 0.2.2 dependency-metadata-only update."""
+"""Regression coverage for the 0.3.0 dependency-metadata-only update."""
 from pathlib import Path
 import json
 import os
@@ -30,17 +30,21 @@ class DependencyMetadataTests(unittest.TestCase):
     def test_game_loader_and_dependency_flags(self):
         expected = {'minecraft': '[1.21.1]', 'neoforge': '[21.1.265,)'}
         self.assertEqual({k: d['versionRange'] for k, d in dependencies().items() if k in expected}, expected)
-        self.assertEqual(set(dependencies()), {'minecraft', 'neoforge', 'create', 'createcasing', 'createenchantablemachinery'})
-        self.assertTrue(all(d['side'] == 'BOTH' and d['type'] == 'required' for d in dependencies().values()))
+        self.assertEqual(set(dependencies()), {'minecraft', 'neoforge', 'create', 'createcasing', 'createenchantablemachinery', 'dndecor'})
+        self.assertTrue(all(d['side'] == 'BOTH' and d['type'] == 'required' for k, d in dependencies().items() if k not in {'dndecor', 'createcasing'}))
+        self.assertEqual(dependencies()['createcasing']['type'], 'optional')
+        self.assertEqual(dependencies()['createcasing']['ordering'], 'AFTER')
+        self.assertEqual(dependencies()['createcasing']['side'], 'BOTH')
+        self.assertEqual(dependencies()['dndecor'], {'modId': 'dndecor', 'type': 'optional', 'versionRange': '[2.2b,)', 'ordering': 'AFTER', 'side': 'BOTH'})
 
     def test_production_version(self):
-        self.assertEqual(metadata()['mods'][0]['version'], '0.2.2')
-        self.assertIn("version = '0.2.2'", (ROOT / 'build.gradle').read_text())
+        self.assertEqual(metadata()['mods'][0]['version'], '0.3.0')
+        self.assertIn("version = '0.3.0'", (ROOT / 'build.gradle').read_text())
 
     def test_production_jar_harness_version(self):
         harness = tomllib.loads((ROOT / 'verification/src/main/resources/META-INF/neoforge.mods.toml').read_text())
-        self.assertEqual(harness['dependencies']['aero_enchant_testharness'][0]['versionRange'], '[0.2.2]')
-        self.assertIn('create-aero-enchantment-compat-0.2.2.jar', (ROOT / 'verification/build.gradle').read_text())
+        self.assertEqual(harness['dependencies']['aero_enchant_testharness'][0]['versionRange'], '[0.3.0]')
+        self.assertIn('create-aero-enchantment-compat-0.3.0.jar', (ROOT / 'verification/build.gradle').read_text())
 
     def test_real_maven_range_acceptance(self):
         supplied = os.environ.get('MAVEN_ARTIFACT_JAR')

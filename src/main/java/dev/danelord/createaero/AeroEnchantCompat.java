@@ -1,6 +1,7 @@
 package dev.danelord.createaero;
 
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.ModList;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -37,6 +38,7 @@ public final class AeroEnchantCompat {
     }
 
     private void registerEntities(RegisterEvent event) {
+        if (!ModList.get().isLoaded("createcasing")) return;
         event.register(Registries.BLOCK_ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(ID, "encased_plough"), () -> {
             var blocks = BuiltInRegistries.BLOCK.stream().filter(Compatibility::isEncasedPlough)
                     .toArray(net.minecraft.world.level.block.Block[]::new);
@@ -47,6 +49,7 @@ public final class AeroEnchantCompat {
     }
 
     private void setup(FMLCommonSetupEvent event) {
+        if (!ModList.get().isLoaded("createcasing")) return;
         event.enqueueWork(() -> {
             var registry = MovementBehaviour.REGISTRY;
             var registrations = ((SimpleRegistryAccessor) registry).aero$registrations();

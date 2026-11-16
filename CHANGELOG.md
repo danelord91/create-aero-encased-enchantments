@@ -1,3 +1,10 @@
+# 0.3.0 — Optional Encased and Design n' Decor compatibility
+
+- Create Encased and Design n' Decor may be installed separately or together; Create and Enchantable Machinery remain required.
+- Adds Efficiency processing for 22 Design n' Decor millstones and 22 crushing wheels, including supported mixed pairs. Fortune and Silk Touch are not offered on those machines.
+- Keeps original block and item identities, and excludes decorative fans and unrelated decor.
+- The exact-build client startup and shimmer pixels have not been verified.
+
 # 0.2.2 — Minimum dependency versions
 
 - Create now requires **6.0.10 or newer**, rather than exactly 6.0.10.

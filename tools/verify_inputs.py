@@ -19,4 +19,4 @@ for filename, expected in manifest.items():
         if bad:
             raise SystemExit(f'CRC failure: {filename}: {bad}')
     print(f'OK {filename}: {actual}')
-print('All three exact input JARs verified.')
+print(f'All {len(manifest)} exact input JARs verified.')

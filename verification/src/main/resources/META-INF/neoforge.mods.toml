@@ -8,6 +8,6 @@ displayName="Isolated packaged-addon GameTest harness"
 [[dependencies.aero_enchant_testharness]]
 modId="aero_enchant_compat"
 type="required"
-versionRange="[0.2.2]"
+versionRange="[0.3.0]"
 ordering="AFTER"
 side="BOTH"

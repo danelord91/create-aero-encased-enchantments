@@ -2,7 +2,18 @@
   "inputs_sha256": {
     "cem": "933ad37b064d8c6005f1f6eb09b3274fe9f5961a6841fb9e7bb65a7bff66f653",
     "encased": "67de80fa384334e75ec087960a3d5bae40226bdea274d5c97995c81431431ed7",
-    "create": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    "create": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "dndecor": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f"
+  },
+  "design_decor_2_2b": {
+    "namespace": "dndecor",
+    "families": ["millstone", "crushing_wheel"],
+    "item_id_rule": "namespace:material_family",
+    "materials": ["amethyst", "asurine", "basalt", "blackstone", "calcite", "crimsite", "deepslate", "diorite", "dolomite", "dripstone", "gabbro", "granite", "limestone", "netherrack", "ochrum", "packed_mud", "scorchia", "scoria", "stone", "tuff", "veridium", "weathered_limestone"],
+    "total": 44,
+    "eligibility_and_effects": ["efficiency"],
+    "excluded": ["decorative large fans", "gears", "other decor"],
+    "verification": "all 44 anvils and recovery; 22 mill and 22 wheel processing variants; mixed-wheel and lifecycle GameTests"
   },
   "method": "Installed JAR item tags cross-checked against upstream registration source; tag eligibility does not establish functional compatibility.",
   "cem_registered_items": [

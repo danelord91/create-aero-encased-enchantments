@@ -124,7 +124,7 @@ public final class CompatGameTests {
         var fortune = registry.getOrThrow(Enchantments.FORTUNE);
         var silk = registry.getOrThrow(Enchantments.SILK_TOUCH);
         int count = 0;
-        for (Block b : BuiltInRegistries.BLOCK.stream().filter(Compatibility::supports).toList()) {
+        for (Block b : BuiltInRegistries.BLOCK.stream().filter(b -> BuiltInRegistries.BLOCK.getKey(b).getNamespace().equals("createcasing") && Compatibility.supports(b)).toList()) {
             boolean loot = b instanceof fr.iglee42.createcasing.blocks.customs.CustomDrillBlock || b instanceof fr.iglee42.createcasing.blocks.customs.CustomSawBlock || b instanceof fr.iglee42.createcasing.blocks.customs.CustomHarvesterBlock || Compatibility.isEncasedPlough(b);
             var enchants = loot ? java.util.List.of(fortune, silk) : java.util.List.of(efficiency);
             for (var enchant : enchants) {
@@ -367,7 +367,7 @@ public final class CompatGameTests {
 
     @GameTest(template = "empty")
     public static void everySupportedVariantPlacementSaveDropsAndPick(GameTestHelper h) {
-        List<Block> blocks = BuiltInRegistries.BLOCK.stream().filter(Compatibility::supports).toList();
+        List<Block> blocks = BuiltInRegistries.BLOCK.stream().filter(b -> BuiltInRegistries.BLOCK.getKey(b).getNamespace().equals("createcasing") && Compatibility.supports(b)).toList();
         h.assertTrue(blocks.size() == 75, "Expected 75 built-in supported variants; got " + blocks.size());
         var player = h.makeMockPlayer(GameType.SURVIVAL);
         var pos = h.absolutePos(POS);
@@ -427,7 +427,7 @@ public final class CompatGameTests {
         // Reflection allows the pre-fix RED run to reach the actual GameTest server.
         var gate = Compatibility.class.getMethod("shouldGlint", BlockEntity.class, boolean.class);
         int variants = 0;
-        for (Block b : BuiltInRegistries.BLOCK.stream().filter(Compatibility::supports).toList()) {
+        for (Block b : BuiltInRegistries.BLOCK.stream().filter(b -> BuiltInRegistries.BLOCK.getKey(b).getNamespace().equals("createcasing") && Compatibility.supports(b)).toList()) {
             h.setBlock(POS, Blocks.AIR);
             h.setBlock(POS, b);
             var be = h.getBlockEntity(POS);
@@ -460,7 +460,7 @@ public final class CompatGameTests {
         // Reflection deliberately permits a production-JAR RED run before adding the gate.
         var gate = Compatibility.class.getMethod("shouldGlintCarried", net.minecraft.world.level.block.state.BlockState.class, BlockEntity.class, boolean.class);
         int variants = 0;
-        for (Block b : BuiltInRegistries.BLOCK.stream().filter(Compatibility::supports).toList()) {
+        for (Block b : BuiltInRegistries.BLOCK.stream().filter(b -> BuiltInRegistries.BLOCK.getKey(b).getNamespace().equals("createcasing") && Compatibility.supports(b)).toList()) {
             h.setBlock(POS, Blocks.AIR);
             for (Direction side : Direction.Plane.HORIZONTAL) h.setBlock(POS.relative(side), Blocks.STONE);
             h.setBlock(POS, b);

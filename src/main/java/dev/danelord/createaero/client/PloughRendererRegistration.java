@@ -16,7 +16,8 @@ import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 public final class PloughRendererRegistration {
     private PloughRendererRegistration() {}
     @SubscribeEvent public static void register(EntityRenderersEvent.RegisterRenderers event) {
-        event.registerBlockEntityRenderer(AeroEnchantCompat.PLOUGH_ENTITY, EmptyRenderer::new);
+        if (AeroEnchantCompat.PLOUGH_ENTITY != null)
+            event.registerBlockEntityRenderer(AeroEnchantCompat.PLOUGH_ENTITY, EmptyRenderer::new);
     }
     public static final class EmptyRenderer implements BlockEntityRenderer<EnchantablePloughBlockEntity> {
         public EmptyRenderer(BlockEntityRendererProvider.Context context) {}

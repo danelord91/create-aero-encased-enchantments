@@ -1,18 +1,12 @@
 package dev.danelord.createaero;
 
 import com.simibubi.create.foundation.block.IBE;
-import fr.iglee42.createcasing.blocks.customs.CustomEncasedFanBlock;
-import fr.iglee42.createcasing.blocks.customs.CustomMixerBlock;
-import fr.iglee42.createcasing.blocks.customs.CustomPressBlock;
-import fr.iglee42.createcasing.blocks.customs.CustomDrillBlock;
-import fr.iglee42.createcasing.blocks.customs.CustomSawBlock;
-import fr.iglee42.createcasing.blocks.customs.CustomHarvesterBlock;
-import fr.iglee42.createcasing.blocks.customs.CustomRollerBlock;
+
 import io.github.cotrin8672.cem.content.block.roller.EnchantableRollerBlockEntity;
 import io.github.cotrin8672.cem.content.block.harvester.EnchantableHarvesterBlockEntity;
 import io.github.cotrin8672.cem.content.block.saw.EnchantableSawBlockEntity;
 import io.github.cotrin8672.cem.content.block.drill.EnchantableDrillBlockEntity;
-import fr.iglee42.createcasing.blocks.fluids.CustomSpoutBlock;
+import net.neoforged.fml.ModList;
 import io.github.cotrin8672.cem.content.block.EnchantableBlockEntity;
 import io.github.cotrin8672.cem.content.block.fan.EnchantableEncasedFanBlockEntity;
 import io.github.cotrin8672.cem.content.block.mixer.EnchantableMechanicalMixerBlockEntity;
@@ -40,9 +34,8 @@ public final class Compatibility {
     }
 
     public static boolean supports(Block block) {
-        return block instanceof CustomPressBlock || block instanceof CustomMixerBlock
-                || block instanceof CustomEncasedFanBlock || block instanceof CustomSpoutBlock
-                || block instanceof CustomDrillBlock || block instanceof CustomSawBlock || block instanceof CustomHarvesterBlock || block instanceof CustomRollerBlock || isEncasedPlough(block);
+        return DesignDecorCompatibility.isMillstone(block) || DesignDecorCompatibility.isWheel(block)
+                || (ModList.get().isLoaded("createcasing") && EncasedCompatibility.supports(block));
     }
 
     /** Shared decision only: safe to exercise on a dedicated server, no rendering/config imports. */
@@ -63,15 +56,9 @@ public final class Compatibility {
         // Both checks are needed: do not hijack a foreign factory given an Encased state.
         if (!supports(block) || !(block instanceof IBE<?> ibe) || ibe.getBlockEntityType() != type)
             return null;
-        if (block instanceof CustomRollerBlock) return new EnchantableRollerBlockEntity(type, pos, state);
-        if (block instanceof CustomHarvesterBlock) return new EnchantableHarvesterBlockEntity(type, pos, state);
-        if (block instanceof CustomSawBlock) return new EnchantableSawBlockEntity(type, pos, state);
-        if (block instanceof CustomDrillBlock) return new EnchantableDrillBlockEntity(type, pos, state);
-        if (block instanceof CustomPressBlock) return new EnchantableMechanicalPressBlockEntity(type, pos, state);
-        if (block instanceof CustomMixerBlock) return new EnchantableMechanicalMixerBlockEntity(type, pos, state);
-        if (block instanceof CustomEncasedFanBlock) return new EnchantableEncasedFanBlockEntity(type, pos, state);
-        if (block instanceof CustomSpoutBlock) return new EnchantableSpoutBlockEntity(type, pos, state);
-        return null;
+        if (DesignDecorCompatibility.isMillstone(block)) return new io.github.cotrin8672.cem.content.block.millstone.EnchantableMillstoneBlockEntity(type, pos, state);
+        if (DesignDecorCompatibility.isWheel(block)) return new io.github.cotrin8672.cem.content.block.crusher.EnchantableCrushingWheelBlockEntity(type, pos, state);
+        return ModList.get().isLoaded("createcasing") ? EncasedCompatibility.create(type, pos, state) : null;
     }
 
     public static void placed(Level level, BlockPos pos, BlockState state, ItemStack stack) {
